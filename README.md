@@ -20,33 +20,37 @@ This is a Live Stream application built with Laravel and Agora SDK. The applicat
 ```bash
 git clone https://github.com/abdelrhmanMohmaed/livestream-app.git
 cd livestream-app
+```
 
 ### Step 2: Install Dependencies
 ```bash
 composer install
 npm install
-
+```
 
 ### Step 3: Set Up Environment
 ```bash
 cp .env.example .env
 php artisan key:generate
-
+```
 
 ### Step 4: Start the Application
 ```bash
 php artisan serve
 
 http://localhost:8000
+```
+
 
 
 
 ### خطوات الحصول على مفتاح Agora:
+
+```bash
 1. قم بزيارة [Agora.io](https://www.agora.io/en/).
 2. قم بإنشاء حساب جديد إذا لم يكن لديك حساب بالفعل.
 3. بعد تسجيل الدخول، انتقل إلى "Console" وأنشئ مشروعًا جديدًا.
-4. ستحصل على App ID الخاص بك، والذي تحتاجه في `.env` الخاص بالمشروع.
+4. ستحصل على App ID الخاص بك، والذي تحتاجه في االمشروع الخاص.
 
-إذا كنت بحاجة إلى أي تفاصيل إضافية أو تعديلات، فلا تتردد في السؤال!
-
+```
 
